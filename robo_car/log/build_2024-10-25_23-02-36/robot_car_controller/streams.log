@@ -1,0 +1,97 @@
+[0.018s] Invoking command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/src/robot_car_controller -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.139s] -- The CXX compiler identification is GNU 11.4.0
+[0.149s] -- Detecting C compiler ABI info
+[0.225s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.242s] -- Detecting C compile features - done
+[0.246s] -- Detecting CXX compiler ABI info
+[0.349s] -- Detecting CXX compiler ABI info - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.361s] -- Detecting CXX compile features
+[0.361s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.232s] -- Found Python3: /home/shiva/.pyenv/shims/python3 (found version "3.10.9") found components: Interpreter 
+[1.448s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.526s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.533s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.544s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.668s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.674s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.706s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.718s] -- Looking for pthread.h
+[1.792s] -- Looking for pthread.h - found
+[1.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.879s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.881s] -- Found Threads: TRUE  
+[1.957s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.958s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.976s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.999s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.020s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.391s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.591s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.592s] -- Added test 'lint_cmake' to check CMake code style
+[2.593s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.595s] -- Added test 'xmllint' to check XML markup files
+[2.598s] -- Configuring done
+[2.606s] -- Generating done
+[2.610s] -- Build files have been written to: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller
+[2.620s] Invoked command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/src/robot_car_controller -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller
+[2.621s] Invoking command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller -- -j8 -l8
+[2.672s] Built target ament_cmake_python_copy_robot_car_controller
+[2.996s] running egg_info
+[2.997s] creating robot_car_controller.egg-info
+[3.013s] writing robot_car_controller.egg-info/PKG-INFO
+[3.013s] writing dependency_links to robot_car_controller.egg-info/dependency_links.txt
+[3.013s] writing top-level names to robot_car_controller.egg-info/top_level.txt
+[3.014s] writing manifest file 'robot_car_controller.egg-info/SOURCES.txt'
+[3.064s] reading manifest file 'robot_car_controller.egg-info/SOURCES.txt'
+[3.066s] writing manifest file 'robot_car_controller.egg-info/SOURCES.txt'
+[3.096s] Built target ament_cmake_python_build_robot_car_controller_egg
+[3.107s] Invoked command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller -- -j8 -l8
+[3.130s] Invoking command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller
+[3.139s] -- Install configuration: ""
+[3.139s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/environment/pythonpath.sh
+[3.139s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/environment/pythonpath.dsv
+[3.139s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller-0.0.0-py3.10.egg-info
+[3.139s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[3.139s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller-0.0.0-py3.10.egg-info/top_level.txt
+[3.140s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.140s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.140s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller
+[3.140s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller/noisy_controller.py
+[3.140s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller/__init__.py
+[3.140s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller/robot_car_controller.py
+[3.241s] Listing '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller'...
+[3.241s] Compiling '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller/__init__.py'...
+[3.241s] Compiling '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller/noisy_controller.py'...
+[3.241s] Compiling '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/python3.10/site-packages/robot_car_controller/robot_car_controller.py'...
+[3.247s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/launch
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/launch/robot_car_controller.launch.py
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/launch/joystick_teleop.launch.py
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/config
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/config/joy_config.yaml
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/config/robot_car_controllers.yaml
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/config/joy_teleop.yaml
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/robot_car_controller/robot_car_controller.py
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/lib/robot_car_controller/noisy_controller.py
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/ament_index/resource_index/package_run_dependencies/robot_car_controller
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/ament_index/resource_index/parent_prefix_path/robot_car_controller
+[3.248s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/environment/ament_prefix_path.sh
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/environment/ament_prefix_path.dsv
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/environment/path.sh
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/environment/path.dsv
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/local_setup.bash
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/local_setup.sh
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/local_setup.zsh
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/local_setup.dsv
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/package.dsv
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/ament_index/resource_index/packages/robot_car_controller
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/cmake/robot_car_controllerConfig.cmake
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/cmake/robot_car_controllerConfig-version.cmake
+[3.249s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_controller/share/robot_car_controller/package.xml
+[3.260s] Invoked command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_controller

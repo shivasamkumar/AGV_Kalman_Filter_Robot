@@ -1,0 +1,94 @@
+[0.016s] Invoking command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/src/robot_car_localization -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.253s] -- Detecting C compile features - done
+[0.258s] -- Detecting CXX compiler ABI info
+[0.361s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.375s] -- Detecting CXX compile features - done
+[0.387s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.294s] -- Found Python3: /home/shiva/.pyenv/shims/python3 (found version "3.10.9") found components: Interpreter 
+[1.541s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.603s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.613s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.626s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.754s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.761s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.798s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.813s] -- Looking for pthread.h
+[1.905s] -- Looking for pthread.h - found
+[1.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.985s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.985s] -- Found Threads: TRUE  
+[2.059s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[2.062s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.099s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.356s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.529s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.529s] -- Added test 'lint_cmake' to check CMake code style
+[2.530s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.532s] -- Added test 'xmllint' to check XML markup files
+[2.534s] -- Configuring done
+[2.539s] -- Generating done
+[2.541s] -- Build files have been written to: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization
+[2.549s] Invoked command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/src/robot_car_localization -DCMAKE_INSTALL_PREFIX=/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization
+[2.552s] Invoking command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization -- -j8 -l8
+[2.609s] Built target ament_cmake_python_copy_robot_car_localization
+[2.950s] running egg_info
+[2.951s] creating robot_car_localization.egg-info
+[2.966s] writing robot_car_localization.egg-info/PKG-INFO
+[2.967s] writing dependency_links to robot_car_localization.egg-info/dependency_links.txt
+[2.967s] writing top-level names to robot_car_localization.egg-info/top_level.txt
+[2.967s] writing manifest file 'robot_car_localization.egg-info/SOURCES.txt'
+[3.030s] reading manifest file 'robot_car_localization.egg-info/SOURCES.txt'
+[3.031s] writing manifest file 'robot_car_localization.egg-info/SOURCES.txt'
+[3.060s] Built target ament_cmake_python_build_robot_car_localization_egg
+[3.071s] Invoked command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --build /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization -- -j8 -l8
+[3.093s] Invoking command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization
+[3.101s] -- Install configuration: ""
+[3.101s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/environment/pythonpath.sh
+[3.101s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/environment/pythonpath.dsv
+[3.101s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization-0.0.0-py3.10.egg-info
+[3.101s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[3.102s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization-0.0.0-py3.10.egg-info/top_level.txt
+[3.102s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.102s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.102s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization
+[3.102s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization/kalman_filter.py
+[3.102s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization/__init__.py
+[3.102s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization/imu_republisher.py
+[3.202s] Listing '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization'...
+[3.202s] Compiling '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization/__init__.py'...
+[3.202s] Compiling '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization/imu_republisher.py'...
+[3.202s] Compiling '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/python3.10/site-packages/robot_car_localization/kalman_filter.py'...
+[3.206s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/include/include
+[3.207s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/include/include/robot_car_localization
+[3.207s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/launch
+[3.207s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/launch/local_localization.launch.py
+[3.207s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/config
+[3.207s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/config/ekf.yaml
+[3.207s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/robot_car_localization/kalman_filter.py
+[3.207s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/lib/robot_car_localization/imu_republisher.py
+[3.207s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/ament_index/resource_index/package_run_dependencies/robot_car_localization
+[3.207s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/ament_index/resource_index/parent_prefix_path/robot_car_localization
+[3.208s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/environment/ament_prefix_path.sh
+[3.208s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/environment/ament_prefix_path.dsv
+[3.208s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/environment/path.sh
+[3.208s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/environment/path.dsv
+[3.208s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/local_setup.bash
+[3.208s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/local_setup.sh
+[3.208s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/local_setup.zsh
+[3.208s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/local_setup.dsv
+[3.208s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/package.dsv
+[3.209s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/ament_index/resource_index/packages/robot_car_localization
+[3.209s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/cmake/robot_car_localizationConfig.cmake
+[3.209s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/cmake/robot_car_localizationConfig-version.cmake
+[3.209s] -- Installing: /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/share/robot_car_localization/package.xml
+[3.211s] Invoked command in '/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiva/Documents/wrk_spc/install/my_pkg:/opt/ros/humble /usr/bin/cmake --install /home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/build/robot_car_localization
